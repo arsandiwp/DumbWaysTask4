@@ -115,7 +115,10 @@ input[type=file] {
 }
 
 .flex {
-   display: flex;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-content: center;
+   grid-gap: 30px;
 }
 
 .card {
